@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Styles.css" media="screen" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a class="active" href="index.html">Inicio</a></li>
+       <!-- <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            <li class="right"><a href="erick.poo">Sobre-Mim</a></li>
+        </ul>
+        <div class="w3-container cont">
+
+
+        <h1>Projeto 01</h1>
+        <h2>Calculadora</h2>
+        <form action="calculator.poo" class="w3-container" id="formCalc">
+            <input class="w3-input" type="number" name="n1" step="0.01" value='1'/>
+            <br>
+            <select class="w3-select" name="op">
+                <option value="" disabled selected>Operação</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <br><br>
+            <input class="w3-input" type="number" name="n2" step="0.01" value='1'/>
+            <br>
+            <input class="button" type="button" value="Calcular" onclick="validar()"/>
+        </form>
+        <br>
+        </div>
+        <script src="scripts/validador.js"></script>
+    </body>
+</html>
