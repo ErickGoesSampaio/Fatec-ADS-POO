@@ -1,7 +1,7 @@
 /**
  * Validar campo obrigatorio
  *
- * @author Bryan Santos 
+ * @author Erick Goes
  */
 
 function validar() {

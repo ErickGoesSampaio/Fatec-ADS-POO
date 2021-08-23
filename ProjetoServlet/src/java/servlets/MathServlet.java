@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author spbry
+ * @author Erick Goes
  */
 @WebServlet(name = "MathServlet", urlPatterns = {"/calculator.poo"})
 public class MathServlet extends HttpServlet {
