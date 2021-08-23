@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author spbry
+ * @author Erick Goes
  */
 @WebServlet(name = "RandomServlet", urlPatterns = {"/random.html"})
 public class RandomServlet extends HttpServlet {
