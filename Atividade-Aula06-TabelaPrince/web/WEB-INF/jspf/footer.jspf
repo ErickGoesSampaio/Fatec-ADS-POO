@@ -1,0 +1,23 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class='container-fluid' id='footer'>
+    <div class='row' >
+        <div class='col-md-12' id='black' class='rodape_esp'>
+            <div class='row' >
+                <div class='col-md-2' style=''>
+                    <ul class='nav'>
+                        <li><a href='index.jsp'>Home</a></li>
+                        <li class='divisor' role='separator'></li>
+                        <li><a href='tabela-price.jsp'>Tabela Price</a></li>
+                        <li class='divisor' role='separator'></li>
+                    </ul>
+                </div>
+            </div>
+            <p class='text-center whiteC'> Desenvolvido por FATEC Praia Grande</p>
+            <div   class='whiteC' style="text-align: center">
+                <small>Erick Goes</small>
+            </div>
+        </div>
+    </div>
+</div>
+
